@@ -6,12 +6,7 @@ function addsToValue(num1: number, num2: number, expected: number): number {
   else return 0;
 }
 
-function addsToValueOverride(
-  num1: number,
-  num2: number,
-  num3: number,
-  expected: number
-): number {
+function addsToValueOverride(num1: number, num2: number, num3: number, expected: number): number {
   if (num1 + num2 + num3 == expected) return num1 * num2 * num3;
   else return 0;
 }
